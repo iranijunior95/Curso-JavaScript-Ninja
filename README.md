@@ -96,7 +96,116 @@ soma()
 
 ```
 
+## [ Aula 02 ]
 
+### - Operadores logicos
+
+- "&& (AND)" Combina duas condições e retorna um valor booleano se agradar a condição
+- "|| (OR)" Verifica se um ou outro valor agrada a condição e retorna um booleano
+- "! (NOT)" Inverte a condição e retorna um valor booleano
+
+---
+
+### - Operadores unarios
+
+- "+" Força um valor a se tornar um numero, concatena Strings
+- "-" Força um valor a ser convertido em numero e inverte o simbolo
+
+---
+
+### - Estrutura léxica
+
+É um conjunto de regras que vão definir como a semantica da linguagem funciona.
+
+Exemplo: Como definir variaveis, como definir funções, como organizar comentarios e etc...
+
+- "Case Sensitive" Diferencia letras maiusculas de  letras minusculas
+- "Comentarios":
+
+```
+// Comentarios de Linhas
+
+/*
+Comentarios de bloco
+*/
+
+```
+- "Literal" São valores fixos da linguagem, valores que não mudam, Ex: TRUE vai ser sempre TRUE
+- "Identificadores" São utilizados para criar nomes de variaveis e funcções
+
+Exemplo:
+
+Podem iniciar com:
+
+-  "_" ou "$"
+- letras de "a" a "z"
+- letras de "A" a "Z"
+
+Podem conter: 
+
+-  "_" ou "$"
+- letras de "a" a "z"
+- letras de "A" a "Z"
+- numero de "0" a "9"
+- qualquer caracter Unicode
+
+- "Palavras Reservadas" São um conjunto de palavras proprias da longuagem javascript que não podem ser utilizadas para as nomeações de variavies e funcções... Ex: void, main, var, let, function e etc...
+
+---
+
+### - Intruções condicionais
+
+- "IF" Verifica uma condição se ela corresponder ao exigido executa um trecho de codigo
+
+Exemplo:
+
+```
+var numero = 1;
+
+if(numero === 1) {
+
+    console.log("Esse numero é igual a um");
+}
+
+```
+
+- "ELSE" Verifica se a condição do if não for aceita executa o else
+
+Exemplo:
+
+```
+var numero = 2;
+
+if(numero === 1) {
+    console.log('Esse numero é igual a um');
+}else {
+
+    console.log('Esse numero não é igual a um');
+}
+
+```
+
+- "ELSE IF" Verifica se a condição não se encaixar na IF cria outra condição
+
+Exemplo:
+
+```
+var numero = 2;
+
+if(numero === 3) {
+
+    console.log('Numero igual a 3');
+
+}else if(numero === 2) {
+    
+    console.log('Numero igual a 2');
+
+}else {
+    
+    console.log('Numero igual a 1');
+}
+
+```
 
 
 
