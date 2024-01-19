@@ -207,6 +207,27 @@ if(numero === 3) {
 
 ```
 
+## [ Aula 03 ]
+
+### - Tipos
+
+- Tipos primitivos
+
+Number, 
+String, 
+Boolean, 
+Null, 
+Undefined
+
+- Tipos de objetos
+
+Todos os tipos que não se encaixem dentro de tipos primitivos são considerados tipos de objeto, ex: objeto, array, funções.
+
+### - Objeto
+
+- São um conjunto de propriedades que recebem nome e valor, esses valores podem ser tipo primitivos ou outros objetos.
+- Quando uma função é atribuida a uma propriedade de objeto ela é chamada de metodo.
+
 
 
 
