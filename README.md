@@ -229,6 +229,55 @@ Todos os tipos que não se encaixem dentro de tipos primitivos são considerados
 - Quando uma função é atribuida a uma propriedade de objeto ela é chamada de metodo.
 
 
+## [ Aula 04 ]
 
+### - Truthy e Falsy
+
+- Valores avaliados como False são considerados Falsy . Valores avaliados como True são considerados Truthy
+
+ - Exemplo Falsy:
+
+ undefined,  
+ null,  
+ NaN,   
+ 0,  
+ "-0",  
+ '',  
+ "",  
+ false
+
+ - Exemplo Truthy:
+
+ Todos os outros valores que nãos e encaixam em Falsy.
+
+ - Uma forma de identificar se um valor valor é Truthy ou Falsy é fazendo usso do operador "!!"
+
+ Exemplo:
+
+ ```
+ !!0
+
+ false
+
+ ```
+
+### - Condicional Ternario
+
+- Basicamente é uma forma de substituir o if em chegagem de condições mais simples
+
+```
+condição ? true : false;
+
+```
+
+### - Escopo de variaveis 
+
+- Global: Escopo onde todo o codigo consegue acessar a variavel
+
+- Local: Escopo é definido localmente, como exemplo uma função que criar um escopo local, toda variavel criada dentro da função só podera ser cessada dentro dela.
+
+- Sempre usar palavras reservadas "var, let, const" para criar variaveis, isso evita problemas com escopo.
+
+- Argumentos de funções são sempre de escopo local.
 
 
