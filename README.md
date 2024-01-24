@@ -281,3 +281,12 @@ condição ? true : false;
 - Argumentos de funções são sempre de escopo local.
 
 
+## [ Aula 05 ]
+
+### - Retorno de funções
+
+- Em javascript as funções podem retornar muito mais dq tipos primitivos, podendo retornar arrays, objetos;
+
+### - Parametros de funções
+
+- Assim como o retorno os parametros das funções tambem podem receber arrays e objetos;
