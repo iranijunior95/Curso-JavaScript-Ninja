@@ -290,3 +290,14 @@ condição ? true : false;
 ### - Parametros de funções
 
 - Assim como o retorno os parametros das funções tambem podem receber arrays e objetos;
+
+
+## [ Aula 06 ]
+
+### - Switch Case
+
+ - Uma estrutura condicional asim como if e else
+
+ ### - Estruturas de repetições While
+
+ - Recebe uma condição, enquanto a mesma for verdadeira a estrução dentro do while vai ficar sendo repetida
