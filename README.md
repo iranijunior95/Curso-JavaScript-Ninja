@@ -301,3 +301,19 @@ condição ? true : false;
  ### - Estruturas de repetições While
 
  - Recebe uma condição, enquanto a mesma for verdadeira a estrução dentro do while vai ficar sendo repetida
+
+
+## [ Aula 07 ]
+
+### - Operador de modulo
+
+- Retorna o resto de uma divisão %
+
+### - Arrays continuação
+
+- Length - conta a quantidade de itens qu exitem em um array
+- Push - adiciona um item no final do array
+
+### - For
+
+- Uma estrutura de repetição: (inicial, condição, final da expressão);
