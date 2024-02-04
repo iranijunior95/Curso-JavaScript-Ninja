@@ -317,3 +317,15 @@ condição ? true : false;
 ### - For
 
 - Uma estrutura de repetição: (inicial, condição, final da expressão);
+
+
+## [ Aula 08 ]
+
+- Nomes de funções, necessario definir funções com nomes no lugar de funções anonimas...
+- Melhora no debug, da acesso ao metodo name do objeto função...
+
+### - Programação funcional
+
+- Nada mais é que uma forma de se programar e escrever projetos baseados em funções ou nas caracteristicas que as funções tem.
+
+- linguagem funcional permite que uma função retorne outra função;
