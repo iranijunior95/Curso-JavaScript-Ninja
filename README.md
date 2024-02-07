@@ -329,3 +329,10 @@ condição ? true : false;
 - Nada mais é que uma forma de se programar e escrever projetos baseados em funções ou nas caracteristicas que as funções tem.
 
 - linguagem funcional permite que uma função retorne outra função;
+
+
+## [ Aula 09 ]
+
+### - Escopo de funções
+
+- Funções criadas dentro de outras funções não são de escopo global, podendo ser acessadas apenas localmente dentro da função pai
