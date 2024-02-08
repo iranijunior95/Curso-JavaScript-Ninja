@@ -336,3 +336,5 @@ condição ? true : false;
 ### - Escopo de funções
 
 - Funções criadas dentro de outras funções não são de escopo global, podendo ser acessadas apenas localmente dentro da função pai
+
+testando git
