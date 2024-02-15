@@ -338,3 +338,10 @@ condição ? true : false;
 - Funções criadas dentro de outras funções não são de escopo global, podendo ser acessadas apenas localmente dentro da função pai
 
 - IIFE são funções autoexecutaveis
+
+## [ Aula 11 ]
+
+### - Outros tipos de laço de repetição
+
+- "For in" serve para percorrer todos os atirbutos de um objeto.
+- Lembrando que o For in é mais lento que o For convencional em termos de execução.
