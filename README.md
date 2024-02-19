@@ -345,3 +345,12 @@ condição ? true : false;
 
 - "For in" serve para percorrer todos os atirbutos de um objeto.
 - Lembrando que o For in é mais lento que o For convencional em termos de execução.
+
+## [ Aula 12 ]
+
+### - Objetos
+
+- São mutaveis, é possivel alterar seus valores
+- São manipulados por referencia, cada objeto é unico
+- Objetos podem ser criados literal ou com construtor, porem é sempre mais interessante e mais rapido criar o objeto literal;
+- Object.create() - outra forma de criar objetos em javascript
