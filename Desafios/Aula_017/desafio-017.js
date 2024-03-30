@@ -152,6 +152,9 @@ Mostre a regex no console.
 */
 console.log( '\nRegex que vai fazer o match com as datas do texto:' );
 // ?
+var regexDate = /(13)|(junho)|(1804)/g;
+
+console.log(regexDate);
 
 /*
 Agora crie a função que irá fazer o replace dos dados. A função será chamada
@@ -162,5 +165,17 @@ console o resultado.
 */
 console.log( '\nReplace de datas:' );
 // ?
+function replaceDate() {
+    var retorno = [];
+
+    text.replace(regexDate, (elementos) => {
+        
+        retorno.push(elementos);
+    });
+
+    return retorno[0]+'/'+getMonthNumber(retorno[1])+'/'+retorno[2];
+}
+
+console.log(replaceDate());
 
 })();
